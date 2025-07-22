@@ -1,0 +1,485 @@
+/* Css by Javeria noor  Navbar, landing page excluding footer*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul,
+a {
+  list-style-type: none;
+  text-decoration: none;
+  color: black;
+
+}
+
+p,
+ul li,
+.p,
+ol li {
+  font-size: 16px;
+  line-height: 26px;
+}
+
+/* .NavSection{
+    position: fixed;
+    
+} */
+.dropdown-item {
+  font-size: small;
+  line-height: 30px;
+}
+
+.menu1 {
+  height: 500px;
+  padding-top: 20px;
+}
+
+/* navsection eneded */
+
+.bookbaby {
+  background-color: #e1edf4;
+  border-bottom: 1px solid #ccc;
+  padding-left: 90px;
+  padding-top: 10px;
+  padding-bottom: 4px;
+}
+
+/* Hero section start */
+
+.ebook-section{
+  background-image: url(./images/ebooks-hero.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+/* For mobile or smaller screens */
+@media (max-width: 768px) {
+.ebook-section{
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+}
+.title {
+  font-size: 48px;
+  line-height: 68px;
+}
+
+.subtitle {
+  font-weight: 500;
+}
+
+.btn-center {
+
+  float: none;
+  margin: 20px auto;
+  text-align: center;
+  font-size: 20px;
+  line-height: 1.3333333;
+  background-color: #c65300;
+  border: 4px solid #efe59b;
+  border-radius: 50px;
+  font-weight: 500;
+
+  padding: 14px 34px 16px;
+  cursor: pointer;
+  transition: background-color .2s ease;
+
+
+
+
+}
+
+.btn-center:hover {
+  background-color: #984306;
+  border: 4px solid #efe59b;
+}
+
+.support {
+  position: fixed;
+  left: 20px;
+  bottom: 14px;
+  cursor: pointer;
+  z-index: 100;
+
+}
+
+/* Herosection ended */
+
+
+/* Newsletter section start  */
+.black {
+  padding: 20px 0px;
+}
+
+.request {
+  color: #ec8606;
+  font-weight: 600;
+  /* color: #ad4d00; */
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+/* Books section start */
+.titles {
+  font-weight: 100 !important;
+  color: #212833;
+  margin-top: 30px;
+  margin-bottom: 40px;
+  line-height: 52px;
+}
+
+.book-item:hover {
+  text-decoration: underline;
+  opacity: 75%;
+}
+
+.bold-med {
+  font-weight: 600;
+  /* margin-top: 10px; */
+}
+
+/* Book section ended */
+
+.greyline {
+  border-bottom: 1px solid #ccc;
+  margin-top: 60px;
+  margin-bottom: 60px;
+
+
+}
+
+/* Author section start */
+
+.quote-box {
+  padding-left: 40px;
+  color: #666;
+  font-style: italic;
+  font-weight: normal;
+  position: relative;
+}
+
+.quote-author {
+  text-align: right;
+  margin-top: 1rem;
+  font-style: italic;
+  color: #666;
+
+  padding-right: 30px;
+}
+
+.quote-box::before {
+  content: '\ec51';
+  /* Unicode for ri-double-quotes-l */
+  font-family: 'remixicon';
+  font-size: 35px;
+  color: #999;
+  position: absolute;
+  left: 0;
+  top: 0;
+  line-height: 1;
+
+
+
+}
+
+.quote-author cite::after {
+  content: '\ec52';
+  /* Unicode for ri-double-quotes-r */
+  font-family: 'remixicon';
+  font-size: 35px;
+  color: #999;
+  margin-left: 8px;
+  line-height: 1;
+
+}
+
+/* Babybook choice section */
+.disc-list {
+  list-style-type: disc;
+
+}
+
+.disc-list li {
+  margin-bottom: 5px;
+}
+
+/* Babybook choice section ended */
+
+.bgcolor {
+  background-color: #f9f8f3;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+/* Scrollbar section start */
+.scrollbar {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.scroll {
+  height: 430px;
+
+}
+
+
+
+.star-green {
+  color: #00b67a;
+  font-size: 1.5rem;
+}
+
+.rating-bar {
+  height: 10px;
+  background-color: #eee;
+  border-radius: 5px;
+  position: relative;
+  margin-inline: 10px;
+}
+
+.rating-bar-fill {
+  height: 100%;
+  background-color: #3c3c55;
+  border-radius: 5px;
+}
+
+.trustpilot-logo {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #00b67a;
+}
+
+.review-stars .ri-star-fill {
+  color: #00b67a;
+  font-size: 1.3rem;
+}
+
+.verified-badge {
+  color: #666;
+  font-size: 0.9rem;
+}
+
+.review-card {
+  border-bottom: 1px solid #eee;
+  padding: 20px 0;
+}
+
+.stars img {
+  width: 25px;
+  margin-right: 3px;
+}
+
+.verified {
+  font-size: 0.9rem;
+  color: #555;
+  margin-top: 5px;
+}
+
+.review-date {
+  color: #666;
+  font-size: 0.9rem;
+}
+
+.more-details {
+  font-size: 0.9rem;
+  margin-left: 10px;
+  color: #555;
+  cursor: pointer;
+}
+
+.emoji {
+  font-size: 1.3rem;
+}
+
+.review {
+  border-bottom: 1px solid #dee2e6;
+  padding: 20px 0;
+}
+
+.review .stars img {
+  width: 25px;
+  height: 25px;
+  margin-right: 4px;
+}
+
+.review .details {
+  font-size: 0.9rem;
+  color: #6c757d;
+  margin-left: 10px;
+}
+
+.verified {
+  color: #6c757d;
+  font-size: 0.875rem;
+  margin-top: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.verified i {
+  color: #6c757d;
+  margin-right: 6px;
+}
+
+.review p {
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.emoji {
+  font-size: 1.2rem;
+}
+
+.review-card {
+  border-bottom: 1px solid #ddd;
+  padding: 20px 0;
+}
+
+.stars img {
+  width: 20px;
+  margin-right: 2px;
+}
+
+.star-box {
+  background-color: #00b67a;
+  padding: 2px 6px;
+  color: #fff;
+  border-radius: 3px;
+  font-weight: bold;
+  display: inline-block;
+  margin-right: 2px;
+}
+
+.verified {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.review-text {
+  margin-top: 10px;
+}
+
+.review-card {
+  border-bottom: 1px solid #ddd;
+  padding: 20px 0;
+}
+
+.star-img {
+  width: 120px;
+}
+
+.verified {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.review-text {
+  margin-top: 10px;
+}
+
+.review-card {
+  border-bottom: 1px solid #ddd;
+  padding: 20px 0;
+}
+
+.star-img {
+  width: 120px;
+}
+
+.verified {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.review-text {
+  margin-top: 10px;
+}
+
+.star-icon {
+  width: 20px;
+  height: 20px;
+  background-color: #00b67a;
+  color: white;
+  border-radius: 3px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 2px;
+  font-size: 14px;
+}
+
+.verified-text {
+  color: #6c757d;
+  font-size: 14px;
+}
+
+.load-more {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 15px;
+  color: #000;
+  cursor: pointer;
+}
+
+
+
+
+
+
+/* Scrollbar section ended */
+.bgblue {
+  background-color: #ebf5f5;
+  padding-bottom: 60px;
+  padding-top: 60px;
+}
+
+
+
+
+
+/* last */
+.start-section {
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.start-section h2 {
+  font-size: 2.5rem;
+  font-weight: 400;
+  color: #2b2b2b;
+  margin-bottom: 60px;
+}
+
+.start-item {
+  margin-bottom: 30px;
+}
+
+.start-item i {
+  font-size: 64px;
+  color: #444;
+  margin-bottom: 20px;
+  display: block;
+}
+
+.start-item h5 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.start-item p {
+  font-size: 1rem;
+  color: #555;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.start-item a {
+  color: #b14400;
+  font-weight: 600;
+  text-decoration: underline;
+}
