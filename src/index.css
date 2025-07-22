@@ -48,7 +48,7 @@ ol li {
 /* Hero section start */
 
 .ebook-section{
-  background-image: url(./images/ebooks-hero.jpg);
+  background-image: url('/images/ebooks-hero.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
