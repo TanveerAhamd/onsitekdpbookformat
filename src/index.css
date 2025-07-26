@@ -1,4 +1,4 @@
-/* Css by Javeria noor  Navbar, landing page excluding footer*/
+/* Css by Javeria noor  Navbar, landing page and footer*/
 * {
   margin: 0;
   padding: 0;
@@ -483,3 +483,19 @@ ol li {
   font-weight: 600;
   text-decoration: underline;
 }
+/* Footer */
+    .ico{
+      width: 45px;
+      height: 45px;
+      border-radius: 50%;
+      /* border: 1px solid; */
+      background: #999;
+      
+      margin: 15px;
+    }
+    .hovIcon:hover{
+      color: white;
+    }
+    .foot-link:hover{
+      text-decoration: underline;
+    }
